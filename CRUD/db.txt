@@ -1,0 +1,13 @@
+
+create databse dbventaslaravel;
+
+use dbventaslaravel;
+
+
+ create table categoria(
+
+idcategoria int primary key auto increment, 
+nombre varchar(80) not null, 
+descripcion varchar(80) not null, 
+condicion char(1)
+)
